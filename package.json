@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
-    "start": "node --exec npx ts-node ./server.ts",
+    "start": "node ./server.ts",
     "server": "nodemon ./server.ts",
     "client": "npm start --prefix ./client"
   },
