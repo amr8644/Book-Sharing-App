@@ -1,0 +1,22 @@
+{
+   "compilerOptions": {
+      "strictNullChecks": true,
+      "moduleResolution": "node",
+      "jsx": "react",
+      "noUnusedParameters": true,
+      "noUnusedLocals": false,
+      "allowSyntheticDefaultImports": true,
+      "target": "es5",
+      "module": "ES2015",
+      "declaration": true,
+      "outDir": "./lib",
+      "noImplicitAny": false,
+      "importHelpers": true
+   },
+   //  "typeRoots": ["../node_modules/@types", "./@types"],
+   "include": [
+      "src/**/*",
+      "index.d.ts" // declaration file path
+   ],
+   "compileOnSave": false
+}
