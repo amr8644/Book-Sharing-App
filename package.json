@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx ts-node ./server.ts",
     "server": "nodemon ./server.ts",
-    "client": "npm start --prefix ./client"
+    "client": "npm start --prefix ./client/build"
   },
   "author": "",
   "license": "ISC",
