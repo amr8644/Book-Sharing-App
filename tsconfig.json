@@ -103,5 +103,8 @@
       "declaration": true
    },
 
-   "include": ["./server.ts"]
+   "include": [
+      "./server.ts",
+      "./node_modules"
+   ]
 }
